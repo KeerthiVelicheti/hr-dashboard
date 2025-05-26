@@ -31,29 +31,23 @@ npm run dev
 ## 🖼️ Screenshots
 
 
-![](screenshots/Layout.png)
+![Layout](public/Screenshots/Layout.png)
 
 
-![](screenshots/Filterbyname.png)
+![Filterbyname](public/Screenshots/Filterbyname.png)
 
+![Filterbydept](public/Screenshots/Filterbydept.png)
 
-![](screenshots/Filterbydept.png)
+![Filterbyrating](public/Screenshots/Filterbyrating.png)
 
-![](screenshots/filterbyrating.png)
+![Userview](public/Screenshots/userview.png)
 
+![Viewfeedback](public/Screenshots/viewfeedback.png)
 
-![](screenshots/userview.png)
+![Viewproject](public/Screenshots/viewproject.png)
 
+![feedback](public/Screenshots/feedback.png)
 
-![](screenshots/viewfeedback.png)
-
-
-
-
-![](screenshots/viewproject.png)
-
-
-![](screenshots/feedback.png)
 
 > 💡 Screenshots are located in the `public/Screenshots/` folder.
 ### 📁 Folder Structure
