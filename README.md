@@ -1,47 +1,89 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-Your local content
-=======
-Remote content from GitHub
->>>>>>> bd5c969...
-=======
-# hr-dashboard
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HR Performance Dashboard
 
-## Getting Started
+A modern HR Dashboard built with Next.js, TypeScript, Tailwind CSS, and Zustand. It allows HR teams to track employee performance, manage filters, view detailed employee profiles, and switch between dark and light mode.
 
-First, run the development server:
+---
 
-```bash
+## 🚀 Features Implemented
+
+- 🌗 **Dark & Light Mode** toggle using `next-themes`
+- 🔍 **Search and Filter Bar** for departments and ratings
+- ⭐ **Rating System** with visual stars
+- 📌 **Bookmark Employees** using Zustand state management
+- 👁️ **View Details Page** for each employee
+- 📊 **Responsive Design** using Tailwind CSS
+
+---
+
+## 🛠 Setup Instructions
+
+### 1. Clone the Repo
+
+git clone https://github.com/your-username/hr-performance-dashboard.git
+cd hr-performance-dashboard
+
+### 2.Install Dependencies
+npm install
+
+### 3. Run the Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🖼️ Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![](screenshots/Layout.png.png)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+![](screenshots/Filterbyname.png.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![](screenshots/Filterbydept.png.png)
 
-## Deploy on Vercel
+![](screenshots/filterbyrating.png.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> bd5c969 (Initial commit from Create Next App)
->>>>>>> 19a05dd (Initial commit from Create Next App)
+![](screenshots/userview.png.png)
+
+
+![](screenshots/viewfeedback.png.png)
+
+
+
+
+![](screenshots/viewproject.png.png)
+
+
+![](screenshots/feedback.png.png)
+
+> 💡 Screenshots are located in the `public/screenshots/` folder.
+### 📁 Folder Structure
+/components        → Reusable components like FilterBar, UserCard, ThemeToggle
+/pages             → App pages using Next.js routing
+/store             → Zustand store for bookmark logic
+/styles            → Global Tailwind CSS styles
+/public/screenshots → Screenshots used in the README
+
+### 🧰 Tech Stack
+Next.js – Framework for React
+
+TypeScript – Type-safe JavaScript
+
+Tailwind CSS – Utility-first CSS
+
+Zustand – Global state management
+
+next-themes – Theme switching support
+
+###📜 License
+This project is licensed under the MIT License.
+
+### 🙏 Acknowledgements
+Thanks to open-source contributors and design inspiration from modern HR dashboards.
+
+
+### ✅ Next Steps
+
+1. Add your screenshots in the folder: `public/screenshots/`
+2. Replace `https://github.com/KeerthiVelicheti/hr-dashboard.git` with your actual GitHub repository URL.
+
+Would you like me to also create those screenshots or a badge section (e.g., "Deployed on Vercel", "License", etc
