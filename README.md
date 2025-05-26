@@ -80,4 +80,4 @@ Thanks to open-source contributors and design inspiration from modern HR dashboa
 1. Add your screenshots in the folder: `public/screenshots/`
 2. Replace `https://github.com/KeerthiVelicheti/hr-dashboard.git` with your actual GitHub repository URL.
 
-Would you like me to also create those screenshots or a badge section (e.g., "Deployed on Vercel", "License", etc
+
