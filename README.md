@@ -19,7 +19,7 @@ A modern HR Dashboard built with Next.js, TypeScript, Tailwind CSS, and Zustand.
 
 ### 1. Clone the Repo
 
-git clone https://github.com/your-username/hr-performance-dashboard.git
+git clone https://github.com/KeerthiVelicheti/hr-dashboard.git
 cd hr-performance-dashboard
 
 ### 2.Install Dependencies
