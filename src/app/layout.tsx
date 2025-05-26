@@ -1,6 +1,5 @@
 'use client';
 
-import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import { ThemeProvider } from 'next-themes';
 import ThemeToggle from '@/components/ThemeToggle';
@@ -16,10 +15,7 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
-export const metadata: Metadata = {
-  title: 'HR Performance Dashboard',
-  description: 'Track employee performance and analytics.',
-};
+// ❌ metadata is removed, as it's not allowed in client components
 
 export default function RootLayout({
   children,
