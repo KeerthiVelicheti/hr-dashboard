@@ -55,7 +55,7 @@ npm run dev
 
 ![](screenshots/feedback.png)
 
-> 💡 Screenshots are located in the `public/screenshots/` folder.
+> 💡 Screenshots are located in the `public/Screenshots/` folder.
 ### 📁 Folder Structure
 /components        → Reusable components like FilterBar, UserCard, ThemeToggle
 /pages             → App pages using Next.js routing
